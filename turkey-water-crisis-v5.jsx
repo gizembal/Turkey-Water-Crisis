@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
-
+import React, { useState, useEffect } from "react";
+import { Droplets, AlertTriangle, TrendingDown, Users, Factory, Droplet, Map, BarChart3, Info, ChevronRight, Share2, Download, ExternalLink } from 'lucide-react';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, AreaChart, Area, BarChart, Bar, Cell, PieChart, Pie } from 'recharts';
 // sektörler: gida=Gıda İmalatı | tekstil=Tekstil | kimya=Kimya/Petrokimya | metal=Metal/Çelik
 // Kaynak: BSTB VGM 2017, NACE sektörel su tüketimi; Kavurucu vd. 2022
 const BASINS = [
